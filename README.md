@@ -42,33 +42,33 @@ Large Language Models (LLMs) frequently generate persuasive yet clinically peril
 
 ```mermaid
 flowchart TD
-    User([User / Clinician / AI Assistant]) --> Dashboard[React Vite Dashboard]
+    User(["User / Clinician / AI Assistant"]) --> Dashboard["React Vite Dashboard"]
     
     subgraph Frontend["Frontend Layer (React + Tailwind CSS)"]
-        Dashboard --> Tab1[Tab 1: Ask Question]
-        Dashboard --> Tab2[Tab 2: Verify Text]
-        Dashboard --> Tab3[Tab 3: Dual Audit]
-        Dashboard --> Tab4[Tab 4: Safety & Matra]
-        Dashboard --> Tab5[Tab 5: Batch Audit]
-        Dashboard --> History[Session History Drawer]
-        Dashboard --> Export[Export Dropdown: MD / PDF / JSON]
+        Dashboard --> Tab1["Tab 1: Ask Question"]
+        Dashboard --> Tab2["Tab 2: Verify Text"]
+        Dashboard --> Tab3["Tab 3: Dual Audit"]
+        Dashboard --> Tab4["Tab 4: Safety & Matra"]
+        Dashboard --> Tab5["Tab 5: Batch Audit"]
+        Dashboard --> History["Session History Drawer"]
+        Dashboard --> Export["Export Dropdown: MD / PDF / JSON"]
     end
 
     Frontend -->|REST API Calls| Backend["FastAPI Verification Engine (:8000)"]
 
     subgraph BackendEngine["Backend Verification Pipeline"]
-        Backend --> AyurParam[AyurParam: Claim Decomposer & LLM]
-        Backend --> Chroma[ChromaDB Dense Vector Store\n(MiniLM-L6-v2 Embeddings)]
-        Backend --> PubMed[Biomedical Evidence Service\n(PubMed E-Utilities + Curated Cache)]
-        Backend --> Safety[Ayurvedic Safety & Matra Checker\n(API Standards + Herb-Drug Rules)]
-        Backend --> DualAuditor[Dual-Evidence Synthesizer]
-        Backend --> Formatter[Report Formatter Engine]
+        Backend --> AyurParam["AyurParam: Claim Decomposer & LLM"]
+        Backend --> Chroma["ChromaDB Dense Vector Store (MiniLM-L6-v2 Embeddings)"]
+        Backend --> PubMed["Biomedical Evidence Service (PubMed E-Utilities + Curated Cache)"]
+        Backend --> Safety["Ayurvedic Safety & Matra Checker (API Standards + Herb-Drug Rules)"]
+        Backend --> DualAuditor["Dual-Evidence Synthesizer"]
+        Backend --> Formatter["Report Formatter Engine"]
     end
 
     Chroma -->|Top-k Samhita Verses| DualAuditor
     PubMed -->|PMID Studies & Trials| DualAuditor
     Safety -->|Phytovigilance Flags| DualAuditor
-    DualAuditor --> UnifiedVerdict[Unified Dual-Evidence Verdict]
+    DualAuditor --> UnifiedVerdict["Unified Dual-Evidence Verdict"]
     UnifiedVerdict --> Dashboard
 ```
 
