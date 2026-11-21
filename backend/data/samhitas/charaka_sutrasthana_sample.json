@@ -1,0 +1,23 @@
+{
+  "source_book": "Charaka Samhita",
+  "chapter": "Sutrasthana Chapter 1 (Dirghanjivitiya)",
+  "category": "Basic Principles / Trisutra",
+  "verses": [
+    {
+      "verse_number": "1",
+      "text": "अथातो दीर्घञ्जीवितीयमध्यायं व्याख्यास्यामः॥ (Now, therefore, we shall expound the chapter on the Quest for Longevity.)",
+      "commentary": "Chakrapani Datta in Ayurveda Dipika explains that the word 'Atha' signifies auspicious commencement, auspiciousness, and contextual immediacy."
+    },
+    {
+      "verse_number": "41",
+      "text": "सर्वदा सर्वभावानां सामान्यं वृद्धि Duniyādhi कारणम्। ह्रासहेतुर्विशेषश्च प्रवृत्तिरुभयस्य तु॥ (Similarity in all substances is the cause of their increase, whereas dissimilarity is the cause of their decrease. Both these principles operate continuously in physiology.)",
+      "commentary": "Samanya-Vishesha Siddhanta: The foundational principle of Ayurvedic pharmacology where like increases like and opposites decrease."
+    },
+    {
+      "verse_number": "42",
+      "text": "सामान्यमेकत्वकरं विशेषस्तु पृथक्त्वकृत्। तुल्यार्थता हि सामान्यं विशेषस्तु विपर्ययः॥ (Similarity brings about unification, while dissimilarity creates diversification. Similarity implies commonality of property or action; dissimilarity is the opposite.)",
+      "commentary": "Crucial distinction between Dravya-Samanya (substance similarity), Guna-Samanya (attribute similarity), and Karma-Samanya (action similarity)."
+    }
+  ]
+}
+

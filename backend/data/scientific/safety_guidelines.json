@@ -1,0 +1,254 @@
+{
+  "_meta": {
+    "description": "Curated Ayurvedic Safety, Matra (Recommended Dosage), Anupana (Adjuvants), Contraindications, and Herb-Drug Interactions Reference Dataset.",
+    "sources": "Ayurvedic Pharmacopoeia of India (API), Charaka Samhita, Sushruta Samhita, Ashtanga Hridaya, and peer-reviewed phytovigilance literature.",
+    "version": "1.0",
+    "last_updated": "2026-11"
+  },
+  "herbs": [
+    {
+      "herb_name": "Ashwagandha",
+      "botanical_name": "Withania somnifera",
+      "sanskrit_aliases": ["ashwagandha", "withania somnifera", "asgandh", "hayagandha", "winter cherry", "indian ginseng", "balada"],
+      "classical_matra": "3–6 g/day root churna (powder); 300–600 mg standardized root extract twice daily; 10–20 ml kvatha (decoction)",
+      "max_daily_matra": "6 g churna or 1200 mg standardized extract",
+      "max_dose_grams": 6.0,
+      "anupana": ["Warm cow's milk (Dugdha)", "Ghee (Ghrita)", "Warm water (Ushnodaka)", "Honey (Madhu)"],
+      "contraindications": [
+        "Pregnancy: Potential abortifacient and spasmolytic uterine effects at medicinal doses; contraindicated in gestation",
+        "Severe thyrotoxicosis / hyperthyroidism: Elevates endogenous T3 and T4 synthesis",
+        "Acute severe Pitta gastritis or peptic ulcer exacerbation due to warming (ushna virya) potency"
+      ],
+      "herb_drug_interactions": [
+        "Sedatives, Barbiturates, Benzodiazepines: Synergistic CNS depressant and GABAergic activity",
+        "Thyroid Hormone Therapy (Levothyroxine): Additive elevation of thyroid hormones",
+        "Immunosuppressants (Corticosteroids, Cyclosporine): Immunostimulatory properties may counteract therapy",
+        "Antidiabetic drugs: Synergistic hypoglycemic effect; monitor blood glucose levels"
+      ],
+      "special_precautions": "Avoid in acute liver impairment; discontinue at least 14 days before elective surgeries involving general anesthesia.",
+      "classical_source": "Charaka Samhita Chikitsasthana 1.1; API Part I, Vol I"
+    },
+    {
+      "herb_name": "Guduchi",
+      "botanical_name": "Tinospora cordifolia",
+      "sanskrit_aliases": ["guduchi", "giloy", "tinospora cordifolia", "amrita", "chinnaruha", "gurjo", "kundalini"],
+      "classical_matra": "3–6 g/day churna; 10–20 ml fresh juice (Swarasa); 20–50 ml kvatha; 500 mg–1 g Guduchi Satva",
+      "max_daily_matra": "6 g churna or 2 g Satva",
+      "max_dose_grams": 6.0,
+      "anupana": ["Warm water", "Honey (Madhu)", "Ghee (Ghrita)", "Sugar candy (Sharkara)"],
+      "contraindications": [
+        "Autoimmune diseases in acute flare (Systemic Lupus Erythematosus, Multiple Sclerosis, Rheumatoid Arthritis): Potent macrophage and immune stimulation may aggravate symptoms",
+        "Pregnancy and lactation: Limited definitive human safety data for concentrated industrial extracts"
+      ],
+      "herb_drug_interactions": [
+        "Immunosuppressive Agents (Cyclosporine, Tacrolimus, Azathioprine): Direct pharmacological antagonism via immune stimulation",
+        "Oral Hypoglycemics and Insulin: Enhances peripheral glucose uptake; may precipitate hypoglycemia"
+      ],
+      "special_precautions": "Long-term unmonitored use without lipid adjuvants (sneha) may cause mild constipation due to kashaya (astringent) rasa.",
+      "classical_source": "Charaka Samhita Sutrasthana 25/40; API Part I, Vol I"
+    },
+    {
+      "herb_name": "Triphala",
+      "botanical_name": "Terminalia chebula, Terminalia bellirica, Phyllanthus emblica",
+      "sanskrit_aliases": ["triphala", "trifala", "triphala churna", "phala trika", "three myrobalans", "wara"],
+      "classical_matra": "3–6 g/day churna at bedtime; 1–2 tablets (500–1000 mg) twice daily; 20–40 ml decoction",
+      "max_daily_matra": "10 g/day for virechana (laxative); 3–6 g/day for routine Rasayana",
+      "max_dose_grams": 10.0,
+      "anupana": ["Warm water (Koshna Jala)", "Ghee and Honey in unequal proportions (for Rasayana)", "Warm milk"],
+      "contraindications": [
+        "Acute diarrhea, dysentery, or acute flares of inflammatory bowel disease (Crohn's, Ulcerative Colitis)",
+        "First trimester of pregnancy: Promotes downward Apana Vayu movement; theoretical mild uterine stimulation",
+        "Severe dehydration, extreme emaciation (Krisha), or acute exhaustion"
+      ],
+      "herb_drug_interactions": [
+        "Oral Pharmaceuticals in general: High tannin concentration binds minerals and slows intestinal drug absorption; administer 2 hours apart",
+        "Anticoagulants / Antiplatelets (Warfarin, Aspirin): Mild antiplatelet modulation by emblica tannins"
+      ],
+      "special_precautions": "Equal parts ghee and honey by weight is strictly contraindicated in classical Ayurveda (Viruddha Ahara); use unequal proportions.",
+      "classical_source": "Charaka Samhita Chikitsasthana 1.2; API Part I, Vol I"
+    },
+    {
+      "herb_name": "Shallaki",
+      "botanical_name": "Boswellia serrata",
+      "sanskrit_aliases": ["shallaki", "boswellia", "boswellia serrata", "salai guggul", "kunduru", "frankincense", "olibanum"],
+      "classical_matra": "1–3 g/day churna; 250–500 mg standardized extract (≥65% boswellic acids) 2–3 times daily",
+      "max_daily_matra": "3 g churna or 1500 mg standardized extract",
+      "max_dose_grams": 3.0,
+      "anupana": ["Warm water", "Warm milk", "Ghee"],
+      "contraindications": [
+        "Pregnancy: Traditional emmenagogue and uterine stimulant properties; lack of established safety in gestation",
+        "Active erosive gastritis or severe peptic ulceration: May cause mild epigastric reflux on empty stomach"
+      ],
+      "herb_drug_interactions": [
+        "NSAIDs (Ibuprofen, Naproxen, Celecoxib): Dual 5-LOX and COX pathway inhibition; monitor for gastric sensitivity",
+        "Cytochrome P450 Substrates (CYP2C9, CYP3A4): Moderate in vitro enzymatic inhibition reported"
+      ],
+      "special_precautions": "Always ingest postprandially (after meals) to avoid gastrointestinal intolerance.",
+      "classical_source": "Bhavaprakasha Nighantu Vatadi Varga; API Part I, Vol IV"
+    },
+    {
+      "herb_name": "Brahmi",
+      "botanical_name": "Bacopa monnieri",
+      "sanskrit_aliases": ["brahmi", "bacopa monnieri", "jalanimba", "water hyssop", "herpestis monniera", "indravalli"],
+      "classical_matra": "2–4 g/day churna; 10–20 ml fresh juice (Swarasa); 300–450 mg standardized bacosides extract daily",
+      "max_daily_matra": "6 g churna or 600 mg extract",
+      "max_dose_grams": 6.0,
+      "anupana": ["Cow's Ghee (Ghrita - supreme vehicle for Medhya action)", "Cow's Milk (Dugdha)", "Honey", "Warm water"],
+      "contraindications": [
+        "Severe bradycardia or conduction heart block: Mild cholinergic stimulation may lower resting heart rate",
+        "Gastrointestinal tract mechanical obstruction or acute hypersecretory gastritis on empty stomach"
+      ],
+      "herb_drug_interactions": [
+        "Sedatives and Anxiolytics: Additive calming and psychotropic potentiating effects",
+        "Thyroid Medications: May mildly augment thyroid hormone secretion",
+        "Anticholinergic medications: Competitively counteracted by bacopa's cholinergic upregulation"
+      ],
+      "special_precautions": "Always take with a lipid adjuvant (ghee or whole milk) to protect gastric mucosa and facilitate blood-brain barrier transport.",
+      "classical_source": "Charaka Samhita Sutrasthana 1/120; API Part I, Vol II"
+    },
+    {
+      "herb_name": "Turmeric",
+      "botanical_name": "Curcuma longa",
+      "sanskrit_aliases": ["turmeric", "haridra", "curcuma longa", "curcumin", "nisha", "haldi", "kanchani", "rajani"],
+      "classical_matra": "1–3 g/day churna; 250–500 mg standardized curcumin extract 1–2 times daily; 2–5 ml fresh rhizome juice",
+      "max_daily_matra": "5 g/day churna or 2000 mg curcumin",
+      "max_dose_grams": 5.0,
+      "anupana": ["Warm cow's milk (Golden milk)", "Ghee", "Warm water with black pepper (Maricha for piperine)", "Honey"],
+      "contraindications": [
+        "Biliary tract obstruction / active cholelithiasis (gallstones): Strong cholagogue action induces gallbladder contractions and may cause biliary colic",
+        "Active bleeding disorders or elective major surgery scheduled within 14 days",
+        "Severe Pitta-predominant hemorrhage (Raktapitta)"
+      ],
+      "herb_drug_interactions": [
+        "Anticoagulants / Antiplatelets (Warfarin, Heparin, Clopidogrel, Aspirin): Synergistic antiplatelet action increases bleeding risk",
+        "Oral Hypoglycemic Agents: Enhances insulin sensitivity; monitor for hypoglycemia",
+        "Chemotherapeutic Agents: May alter intracellular drug concentrations"
+      ],
+      "special_precautions": "High therapeutic doses must be avoided in acute gallbladder inflammation; co-administration with piperine increases bioavailability up to 2000%.",
+      "classical_source": "Charaka Samhita Sutrasthana 27/297; API Part I, Vol I"
+    },
+    {
+      "herb_name": "Ghee",
+      "botanical_name": "Clarified cow's butter (Go-Ghrita)",
+      "sanskrit_aliases": ["ghee", "ghrita", "go-ghrita", "clarified butter", "cow ghee", "sarpi", "havis"],
+      "classical_matra": "10–20 ml/day in healthy daily diet (Swasthavritta); 30–60 ml for therapeutic snehana under physician supervision",
+      "max_daily_matra": "30 ml/day for daily wellness",
+      "max_dose_grams": 30.0,
+      "anupana": ["Warm water (Ushnodaka - mandatory to ensure Agni stimulation and prevent lipid indigestion)", "Warm milk"],
+      "contraindications": [
+        "Ama states: Undigested endotoxins, acute fever (Nava Jwara), heavy toxic coating on tongue",
+        "Acute hepatitis, active jaundice, or acute pancreatitis",
+        "Severe Kapha aggravation with copious pulmonary mucus and productive cough",
+        "Severe uncontrolled hypertriglyceridemia (without medical supervision)"
+      ],
+      "herb_drug_interactions": [
+        "Lipophilic prescription drugs: Accelerates absorption and tissue bioavailability of lipophilic oral drugs"
+      ],
+      "special_precautions": "Never drink cold or iced water after ingesting ghee (causes severe Ajirna/indigestion and toxic Ama). Equal weights of ghee and honey is classical Viruddha Ahara (toxic combination).",
+      "classical_source": "Charaka Samhita Sutrasthana 27/231-232; API Part I, Vol I"
+    },
+    {
+      "herb_name": "Neem",
+      "botanical_name": "Azadirachta indica",
+      "sanskrit_aliases": ["neem", "nimba", "azadirachta indica", "arista", "pichumarda", "sarvabhadra"],
+      "classical_matra": "1–3 g/day leaf/bark churna; 10–20 ml decoction (kvatha); 5–10 ml fresh juice",
+      "max_daily_matra": "3 g churna or 30 ml kvatha",
+      "max_dose_grams": 3.0,
+      "anupana": ["Warm water", "Honey (Madhu - to mitigate intense Tikta/bitter rasa)"],
+      "contraindications": [
+        "Pregnancy, lactation, and couples actively planning conception: Well-documented spermicidal, anti-implantation, and abortifacient actions",
+        "Infants and small children: Oral neem seed oil can cause fatal toxic encephalopathy (Reye-like syndrome)",
+        "Severe Vata aggravation, chronic emaciation, or debility due to extreme drying (ruksha) and cooling (sheeta) properties"
+      ],
+      "herb_drug_interactions": [
+        "Antidiabetic medications: Potent additive blood glucose reduction; monitor blood sugar closely",
+        "Immunosuppressants: Augments cell-mediated immune responses",
+        "Lithium: May alter renal lithium clearance"
+      ],
+      "special_precautions": "Pure Neem seed oil (Taila) must strictly be applied externally only; never ingest pure neem oil internally.",
+      "classical_source": "Charaka Samhita Sutrasthana 27/177; API Part I, Vol II"
+    },
+    {
+      "herb_name": "Shatavari",
+      "botanical_name": "Asparagus racemosus",
+      "sanskrit_aliases": ["shatavari", "asparagus racemosus", "satavari", "bahusuta", "shatamuli", "abhiru"],
+      "classical_matra": "3–6 g/day churna; 10–20 ml fresh juice; 300–600 mg root extract twice daily",
+      "max_daily_matra": "6 g churna or 1200 mg extract",
+      "max_dose_grams": 6.0,
+      "anupana": ["Warm cow's milk (Dugdha - classical vehicle for Stanyajanana)", "Ghee", "Sugar candy (Sharkara)"],
+      "contraindications": [
+        "Estrogen-receptor positive neoplasms (Breast, Ovarian, or Uterine cancer; severe Endometriosis): Phytoestrogenic saponins (shatavarins) may stimulate estrogen-sensitive tissue",
+        "Severe congestive heart failure or renal insufficiency with fluid retention (Guru/Snigdha heavy attributes)",
+        "Severe Kapha congestion and dampness"
+      ],
+      "herb_drug_interactions": [
+        "Diuretics (Furosemide, Spironolactone): Potential additive aquaretic/diuretic effects",
+        "Hormone Replacement Therapy (HRT) and Oral Contraceptives: Competitive or additive phytoestrogenic modulation"
+      ],
+      "special_precautions": "May cause minor bloating in patients with weak digestive fire (Mandagni) if taken without digestive spices.",
+      "classical_source": "Charaka Samhita Chikitsasthana 1.1; API Part I, Vol IV"
+    },
+    {
+      "herb_name": "Shigru",
+      "botanical_name": "Moringa oleifera",
+      "sanskrit_aliases": ["shigru", "moringa", "moringa oleifera", "drumstick tree", "sobhajana", "tikshnagandha"],
+      "classical_matra": "1–3 g/day leaf powder; 10–20 ml bark decoction; 1–2 g seed powder",
+      "max_daily_matra": "6 g leaf powder",
+      "max_dose_grams": 6.0,
+      "anupana": ["Warm water", "Buttermilk (Takra)"],
+      "contraindications": [
+        "Pregnancy: Moringa root and bark contain spirochin and moringinine alkaloids that induce powerful uterine spasms and abortions; bark and root strictly contraindicated in pregnancy",
+        "Active bleeding peptic ulceration due to sharp (tikshna) and hot (ushna) qualities",
+        "Severe Pitta-Rakta disorders (burning sensation, hematuria)"
+      ],
+      "herb_drug_interactions": [
+        "Antihypertensive drugs: Additive blood pressure lowering",
+        "Oral Hypoglycemic Agents: Enhances glycemic control; watch for hypoglycemia",
+        "Levothyroxine: May impair gastrointestinal absorption of thyroid hormone"
+      ],
+      "special_precautions": "Do not consume root or root-bark preparations internally; stick strictly to leaf powder formulations.",
+      "classical_source": "Charaka Samhita Sutrasthana 27/115; API Part I, Vol IV"
+    },
+    {
+      "herb_name": "Guggulu",
+      "botanical_name": "Commiphora mukul",
+      "sanskrit_aliases": ["guggulu", "guggul", "commiphora mukul", "commiphora wightii", "purified guggulu", "shodhita guggulu", "devadhupa"],
+      "classical_matra": "1–3 g/day purified gum resin (Shodhita Guggulu) in divided doses; 500 mg tablets 2–3 times daily",
+      "max_daily_matra": "4 g/day purified resin",
+      "max_dose_grams": 4.0,
+      "anupana": ["Warm water", "Triphala kvatha (decoction)", "Gomutra (in obesity/Medoroga)", "Warm milk"],
+      "contraindications": [
+        "Pregnancy and lactation: Documented emmenagogue, uterine stimulant, and potential teratogenic properties",
+        "Severe acute hepatic impairment, active acute nephritis, or inflammatory bowel disease",
+        "Active bleeding disorders, bleeding hemorrhoids, or pre-surgery"
+      ],
+      "herb_drug_interactions": [
+        "Anticoagulants / Antiplatelets (Warfarin, Clopidogrel, Aspirin): Potentiates antiplatelet effect and bleeding time",
+        "Lipid-Lowering Agents (Statins): Additive hypolipidemic effect; possible competition for hepatic enzymes",
+        "Oral Contraceptives: Guggulsterones induce CYP3A4 enzymes and may diminish contraceptive efficacy"
+      ],
+      "special_precautions": "Must strictly undergo classical Shodhana (purification in Triphala or Gomutra); raw unpurified Guggulu induces skin dermatoses, diarrhea, and liver burden.",
+      "classical_source": "Sushruta Samhita Sutrasthana 45/144; API Part I, Vol I"
+    },
+    {
+      "herb_name": "Pippali",
+      "botanical_name": "Piper longum",
+      "sanskrit_aliases": ["pippali", "piper longum", "long pepper", "magadha", "kana", "krishna", "vaidehi"],
+      "classical_matra": "0.5–1.5 g/day churna; 250–500 mg twice daily; gradual escalation only under Vardhamana Rasayana protocol",
+      "max_daily_matra": "2 g/day for routine consumption",
+      "max_dose_grams": 2.0,
+      "anupana": ["Honey (Madhu - supreme for Kaphaja disorders)", "Ghee", "Warm milk (in Vardhamana Rasayana)", "Warm water"],
+      "contraindications": [
+        "Chronic unpaused solitary administration: Charaka gives explicit canonical warning ('Pippali na satatam upyunjita' - continuous usage depletes Dhatus and aggravates Pitta)",
+        "Active acute gastrointestinal inflammation, peptic ulcer, hyperacidity (Amlapitta)",
+        "Active bleeding disorders (Raktapitta) due to ushna (hot) and tikshna (penetrating) potency"
+      ],
+      "herb_drug_interactions": [
+        "Broad Bioavailability Enhancer: Piperine strongly inhibits hepatic CYP3A4 and P-glycoprotein, significantly elevating blood concentrations of Phenytoin, Propranolol, Theophylline, NSAIDs, and Antibiotics",
+        "Hypoglycemics and Sedatives: Extends systemic drug circulation and potentiates therapeutic effects"
+      ],
+      "special_precautions": "Never take continuously beyond 2–3 weeks without a break or without an unctuous (sneha) vehicle like milk or ghee.",
+      "classical_source": "Charaka Samhita Vimanasthana 1/16; API Part I, Vol IV"
+    }
+  ]
+}
